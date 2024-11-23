@@ -16,6 +16,7 @@
             return True
         else:
             return False
+
 person1 = Person("Juan", 30)
 person2 = Person("Maria", 27)
 person1.greet()
