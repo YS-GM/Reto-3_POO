@@ -16,8 +16,8 @@
             return True
         else:
             return False
+
 person1 = Person("Juan", 30)
 person2 = Person("Maria", 25)
-
 print(person1.is_older_than(person2))
 ```
