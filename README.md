@@ -3,7 +3,7 @@
 # Ejericio de clase  
   A continuació se encuentra la solución al ejercicio definiendo una clase
   ``` Python
-  class Person:
+ class Person:
     def __init__(self, name: str, age:int):
         self.name = name
         self.age = age
@@ -16,8 +16,9 @@
             return True
         else:
             return False
-
 person1 = Person("Juan", 30)
-person2 = Person("Maria", 25)
+person2 = Person("Maria", 27)
+person1.greet()
+person2.greet()
 print(person1.is_older_than(person2))
 ```
