@@ -12,8 +12,8 @@ class Person:
     def greet(self):
         print(f"{self.name} te está saludando")
 
-    def is_older_than(self, name: str):
-        if self.age > name.age:
+    def is_older_than(self, other_person: 'Person'):
+        if self.age > other_person.age:
             return True
         else:
             return False
