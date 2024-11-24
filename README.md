@@ -1,6 +1,5 @@
-# Reto-3_POO
+# Ejercicio clase 6
 
-# Ejericio de clase  
   A continuació se encuentra la solución al ejercicio definiendo una clase
   ``` Python
 class Person:
